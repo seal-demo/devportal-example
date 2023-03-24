@@ -7,62 +7,62 @@ spec:
   type: team
   profile:
     displayName: Team B
-    email: team-b@example.com
+    email: team-b@sealio.net
     picture: https://avatars.dicebear.com/api/identicon/team-b@example.com.svg?background=%23fff&margin=25
-  parent: backstage
+  parent: platform
   children: []
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: amelia.park
+  name: xuefeng.yin
 spec:
   profile:
-    displayName: Amelia Park
-    email: amelia-park@example.com
+    displayName: Xuefeng Yin
+    email: xuefeng.yin@sealio.net
     picture: https://avatars.dicebear.com/api/avataaars/amelia-park@example.com.svg?background=%23fff
   memberOf: [team-b]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: colette.brock
+  name: jiqing.you
 spec:
   profile:
-    displayName: Colette Brock
-    email: colette-brock@example.com
+    displayName: Jiqing You
+    email: jiqing.you@sealio.net
     picture: https://avatars.dicebear.com/api/avataaars/colette-brock@example.com.svg?background=%23fff
   memberOf: [team-b]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: jenny.doe
+  name: kai.hu
 spec:
   profile:
-    displayName: Jenny Doe
-    email: jenny-doe@example.com
+    displayName: Kai Hu
+    email: kai.hu@sealio.net
     picture: https://avatars.dicebear.com/api/avataaars/jenny-doe@example.com.svg?background=%23fff
   memberOf: [team-b]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: jonathon.page
+  name: yingluo.zhang
 spec:
   profile:
-    displayName: Jonathon Page
-    email: jonathon-page@example.com
+    displayName: Yingluo Zhang
+    email: yingluo.zhang@sealio.net
     picture: https://avatars.dicebear.com/api/avataaars/jonathon-page@example.com.svg?background=%23fff
   memberOf: [team-b]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: justine.barrow
+  name: dong.zhu
 spec:
   profile:
-    displayName: Justine Barrow
-    email: justine-barrow@example.com
+    displayName: Dong Zhu
+    email: dong.zhu@sealio.net
     picture: https://avatars.dicebear.com/api/avataaars/justine-barrow@example.com.svg?background=%23fff
   memberOf: [team-b]

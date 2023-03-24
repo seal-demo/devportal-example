@@ -7,7 +7,7 @@ spec:
   type: sub-department
   profile:
     displayName: Box Office
-    email: boxoffice@example.com
+    email: boxoffice@sealio.net
     # Intentional no picture for testing
   parent: infrastructure
   children: [team-c, team-d]
