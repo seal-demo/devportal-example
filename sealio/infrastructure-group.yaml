@@ -7,4 +7,4 @@ spec:
   type: department
   # Intentional no profile for testing
   parent: sealio-corp
-  children: [backstage, boxoffice]
+  children: [platform, boxoffice]
