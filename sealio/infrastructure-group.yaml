@@ -6,5 +6,5 @@ metadata:
 spec:
   type: department
   # Intentional no profile for testing
-  parent: acme-corp
+  parent: sealio-corp
   children: [backstage, boxoffice]
