@@ -26,6 +26,17 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
+  name: Peng.Jiang
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: peng.jiang@hotmail.com
+    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
+  memberOf: [team-a]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
   name: Jiaying.Tu
 spec:
   profile:
