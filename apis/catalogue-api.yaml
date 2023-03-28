@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: catalogue
-  description: The Smartylighting Streetlights API allows you to remotely manage the city lights.
+  name: catalogue-api
+  description: The Socks-Shop Catalog API allows you to manage the catalogues.
   tags:
     - mqtt
   links:
@@ -12,7 +12,7 @@ metadata:
 spec:
   type: asyncapi
   lifecycle: production
-  owner: team-c
+  owner: team-a
   definition: |
     asyncapi: 2.0.0
     info:
