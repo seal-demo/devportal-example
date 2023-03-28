@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: carts
+  name: carts-api
   description: The Smartylighting Streetlights API allows you to remotely manage the city lights.
   tags:
     - mqtt
@@ -16,10 +16,10 @@ spec:
   definition: |
     asyncapi: 2.0.0
     info:
-      title: Streetlights API
+      title: Socks-Shop Carts API
       version: '1.0.0'
       description: |
-        The Smartylighting Streetlights API allows you to remotely manage the city lights.
+        The Socks-Shop Carts API allows you to manage the shopping carts.
         ### Check out its awesome features:
         * Turn a specific streetlight on/off 🌃
         * Dim a specific streetlight 😎
